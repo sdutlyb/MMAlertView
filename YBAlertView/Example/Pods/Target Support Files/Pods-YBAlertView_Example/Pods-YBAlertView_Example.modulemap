@@ -1,0 +1,6 @@
+framework module Pods_YBAlertView_Example {
+  umbrella header "Pods-YBAlertView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

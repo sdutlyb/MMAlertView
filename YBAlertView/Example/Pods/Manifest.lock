@@ -1,0 +1,16 @@
+PODS:
+  - YBAlertView (0.1.0)
+
+DEPENDENCIES:
+  - YBAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  YBAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YBAlertView: 817c2ede437b2cf133af9848761614b5662f23fb
+
+PODFILE CHECKSUM: f2293dc32293056f0a86b5149fec64bae3a778de
+
+COCOAPODS: 1.6.1
