@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YBAlertView_Example' do
+  pod 'YBAlertView', :path => '../'
+
+  target 'YBAlertView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
