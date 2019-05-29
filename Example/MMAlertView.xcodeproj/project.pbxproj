@@ -10,20 +10,20 @@
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		A36A76664748992674BCD4B2 /* Pods_MMAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD474F4FD98B4E0B4F46C285 /* Pods_MMAlertView_Example.framework */; };
-		AAAEAF67229E1FCE000929E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAEAF63229E1FCE000929E1 /* main.m */; };
-		AAAEAF68229E1FCE000929E1 /* MMAlertView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAAEAF64229E1FCE000929E1 /* MMAlertView-Info.plist */; };
-		AAAEAF69229E1FCE000929E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAEAF65229E1FCE000929E1 /* Images.xcassets */; };
 		AAAEAF71229E1FF6000929E1 /* YBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAEAF6A229E1FF6000929E1 /* YBViewController.m */; };
 		AAAEAF72229E1FF6000929E1 /* MMAlertDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAEAF6C229E1FF6000929E1 /* MMAlertDemoVC.m */; };
 		AAAEAF73229E1FF6000929E1 /* YBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAEAF6E229E1FF6000929E1 /* YBAppDelegate.m */; };
 		AAAEAF74229E1FF6000929E1 /* MMAlertDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAEAF6F229E1FF6000929E1 /* MMAlertDemoVC.xib */; };
+		AAAEAF84229E2284000929E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAEAF80229E2284000929E1 /* main.m */; };
+		AAAEAF85229E2284000929E1 /* MMAlertView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAAEAF81229E2284000929E1 /* MMAlertView-Info.plist */; };
+		AAAEAF86229E2284000929E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAEAF82229E2284000929E1 /* Images.xcassets */; };
+		AAAEAF88229E2299000929E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAEAF87229E2299000929E1 /* Default-568h@2x.png */; };
 		C205D371CD508D6983F173B5 /* Pods_MMAlertView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49249817BDC28088D48F8835 /* Pods_MMAlertView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,17 +48,12 @@
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* MMAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AAAEAF63229E1FCE000929E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
-		AAAEAF64229E1FCE000929E1 /* MMAlertView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MMAlertView-Info.plist"; sourceTree = SOURCE_ROOT; };
-		AAAEAF65229E1FCE000929E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
-		AAAEAF66229E1FCE000929E1 /* MMAlertView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMAlertView-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		AAAEAF6A229E1FF6000929E1 /* YBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YBViewController.m; path = MMAlertView/YBViewController.m; sourceTree = "<group>"; };
 		AAAEAF6B229E1FF6000929E1 /* MMAlertDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMAlertDemoVC.h; path = MMAlertView/MMAlertDemoVC.h; sourceTree = "<group>"; };
 		AAAEAF6C229E1FF6000929E1 /* MMAlertDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMAlertDemoVC.m; path = MMAlertView/MMAlertDemoVC.m; sourceTree = "<group>"; };
@@ -66,6 +61,11 @@
 		AAAEAF6E229E1FF6000929E1 /* YBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YBAppDelegate.m; path = MMAlertView/YBAppDelegate.m; sourceTree = "<group>"; };
 		AAAEAF6F229E1FF6000929E1 /* MMAlertDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MMAlertDemoVC.xib; path = MMAlertView/MMAlertDemoVC.xib; sourceTree = "<group>"; };
 		AAAEAF70229E1FF6000929E1 /* YBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YBAppDelegate.h; path = MMAlertView/YBAppDelegate.h; sourceTree = "<group>"; };
+		AAAEAF80229E2284000929E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MMAlertView/main.m; sourceTree = "<group>"; };
+		AAAEAF81229E2284000929E1 /* MMAlertView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MMAlertView-Info.plist"; path = "MMAlertView/MMAlertView-Info.plist"; sourceTree = "<group>"; };
+		AAAEAF82229E2284000929E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MMAlertView/Images.xcassets; sourceTree = "<group>"; };
+		AAAEAF83229E2284000929E1 /* MMAlertView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMAlertView-Prefix.pch"; path = "MMAlertView/MMAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		AAAEAF87229E2299000929E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "MMAlertView/Default-568h@2x.png"; sourceTree = "<group>"; };
 		AC4B77E9CE1302471442F90D /* Pods-MMAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMAlertView_Tests.release.xcconfig"; path = "Target Support Files/Pods-MMAlertView_Tests/Pods-MMAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AD474F4FD98B4E0B4F46C285 /* Pods_MMAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4CEF6ED5F2B42810642F0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -100,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				AAAEAF62229E1F67000929E1 /* Example for MMAlertView */,
+				AAAEAF76229E21F2000929E1 /* Supporting Files */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -180,22 +181,20 @@
 				AAAEAF6D229E1FF6000929E1 /* YBViewController.h */,
 				AAAEAF6A229E1FF6000929E1 /* YBViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				AAAEAF75229E200C000929E1 /* Supporting Files */,
 			);
 			name = "Example for MMAlertView";
 			sourceTree = "<group>";
 		};
-		AAAEAF75229E200C000929E1 /* Supporting Files */ = {
+		AAAEAF76229E21F2000929E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAAEAF66229E1FCE000929E1 /* MMAlertView-Prefix.pch */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				AAAEAF65229E1FCE000929E1 /* Images.xcassets */,
-				AAAEAF63229E1FCE000929E1 /* main.m */,
-				AAAEAF64229E1FCE000929E1 /* MMAlertView-Info.plist */,
+				AAAEAF82229E2284000929E1 /* Images.xcassets */,
+				AAAEAF80229E2284000929E1 /* main.m */,
+				AAAEAF81229E2284000929E1 /* MMAlertView-Info.plist */,
+				AAAEAF83229E2284000929E1 /* MMAlertView-Prefix.pch */,
+				AAAEAF87229E2299000929E1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			path = YBAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				AAAEAF69229E1FCE000929E1 /* Images.xcassets in Resources */,
-				AAAEAF68229E1FCE000929E1 /* MMAlertView-Info.plist in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				AAAEAF86229E2284000929E1 /* Images.xcassets in Resources */,
+				AAAEAF85229E2284000929E1 /* MMAlertView-Info.plist in Resources */,
+				AAAEAF88229E2299000929E1 /* Default-568h@2x.png in Resources */,
 				AAAEAF74229E1FF6000929E1 /* MMAlertDemoVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +371,7 @@
 			files = (
 				AAAEAF72229E1FF6000929E1 /* MMAlertDemoVC.m in Sources */,
 				AAAEAF73229E1FF6000929E1 /* YBAppDelegate.m in Sources */,
-				AAAEAF67229E1FCE000929E1 /* main.m in Sources */,
+				AAAEAF84229E2284000929E1 /* main.m in Sources */,
 				AAAEAF71229E1FF6000929E1 /* YBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,14 +395,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
