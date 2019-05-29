@@ -41,7 +41,6 @@ typedef NS_ENUM(NSInteger, YBAlertPreferredActionButtonPosition)
 @property(assign, nonatomic) YBAlertPreferredActionButtonPosition preferredActionButtonPosition;
 
 @property(strong, nonatomic) UIFont *titleTextFont;
-@property(assign, nonatomic) BOOL shouldShowTopRightCloseButton;
 
 @property(nonatomic, strong) NSString *title;
 @property(nonatomic, strong) NSArray *buttonTitles;

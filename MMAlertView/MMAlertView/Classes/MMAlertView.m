@@ -155,15 +155,6 @@ CGFloat AlertBodyWidth = 0;
         titleLabel.textAlignment = NSTextAlignmentCenter;
         titleLabel.text = _title;
         [topTitleView addSubview:titleLabel];
-        if (_shouldShowTopRightCloseButton) {
-            UIButton *closeButton = [UIButton buttonWithType:UIButtonTypeCustom];
-            [closeButton setImage:[UIImage imageNamed:@"alertCloseBtn"] forState:UIControlStateNormal];
-            [closeButton setImageEdgeInsets:UIEdgeInsetsMake(7, 7, 7, 7)];
-            [closeButton setFrame:CGRectMake(topTitleView.bounds.size.width - 40, 7, 30, 30)];
-            [closeButton addTarget:self action:@selector(closeButtonTouched:) forControlEvents:UIControlEventTouchUpInside];
-            [topTitleView addSubview:closeButton];
-        }
-        
         if (_titleBarStyle != YBAlertTitleBarStyleThemeColor) {
             UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0, topTitleView.frame.size.height - 1, topTitleView.frame.size.width, 1)];
             lineView.backgroundColor = [UIColor colorWithRed:0.92 green:0.92 blue:0.92 alpha:1];
@@ -178,12 +169,16 @@ CGFloat AlertBodyWidth = 0;
     if (bodyHeight < kCustomIOSAlertViewBodyMinHeight) {
         bodyHeight = kCustomIOSAlertViewBodyMinHeight;
     }
+    CGFloat bodyY = self.bodyMarginVertical;
+    if (self.title && self.title.length > 0) {
+        bodyY += kCustomIOSAlertViewTopTitleHeight;
+    }
     CGRect contentContainerRect = CGRectMake(self.bodyMarginHorizontal,
-                                             kCustomIOSAlertViewTopTitleHeight + self.bodyMarginVertical,
+                                             bodyY,
                                              dialogContainer.bounds.size.width - self.bodyMarginHorizontal * 2,
                                              bodyHeight - self.bodyMarginVertical * 2);
     UIView *contentContainer = [[UIView alloc] initWithFrame:contentContainerRect];
-    contentContainer.backgroundColor = [UIColor whiteColor];
+    contentContainer.backgroundColor = [UIColor redColor];
     CGRect contentRect = _contentView.frame;
     contentRect.origin.y = (contentContainer.bounds.size.height - _contentView.bounds.size.height) / 2;
     _contentView.frame = contentRect;

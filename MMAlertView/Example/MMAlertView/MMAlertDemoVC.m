@@ -24,7 +24,9 @@
 }
 
 - (IBAction)ensureAlert:(id)sender {
-    [MMAlertView showReminder:nil message:@"lalala" onTouchedActionButtons:^(MMAlertView * _Nonnull alertView) {
+    [MMAlertView showReminder:nil
+                      message:@"lalala"
+       onTouchedActionButtons:^(MMAlertView * _Nonnull alertView) {
         
     }];
 }
@@ -49,7 +51,7 @@
 - (IBAction)whiteAlert:(id)sender {
     
     [MMAlertView showWhiteStypeAlert:nil
-                             message:@"您已经被别人搞下线了"
+                             message:@"您已经下线了"
                          actionNames:@[@"重新登录"]
               onTouchedActionButtons:^(MMAlertView *alertView, NSUInteger buttonIndex) {
         
