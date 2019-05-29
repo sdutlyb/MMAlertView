@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YBAlertView'
   s.version          = '0.1.0'
-  s.summary          = 'iOS 定制化AlertView，不基于系统y提供的UIAlertView和UIAlertViewController'
+  s.summary          = 'iOS 定制化AlertView，不基于系统提供的UIAlertView和UIAlertViewController'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-       iOS平台下的弹框视图，支持标题栏颜色、弹框内容、按钮的完全自定义
+       iOS平台下的弹框视图，支持标题栏颜色、弹框内容、按钮的完全自定义.不基于系统提供的UIAlertView和UIAlertViewController
                        DESC
 
   s.homepage         = 'https://github.com/sdutlyb/YBAlertView'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'YBAlertView' => ['YBAlertView/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'Foundation', 'QuartzCore'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -18,7 +18,6 @@
 
 CGFloat ButtonHeight = 0;
 CGFloat AlertBodyWidth = 0;
-CGFloat TitleHeight = kCustomIOSAlertViewTopTitleHeight;
 
 #pragma mark - init and lifecycle
 
@@ -147,10 +146,10 @@ CGFloat TitleHeight = kCustomIOSAlertViewTopTitleHeight;
 
     // add top title bar
     if (self.title && [self.title isKindOfClass:[NSString class]] && self.title.length > 0) {
-        UIView *topTitleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, dialogContainer.bounds.size.width, TitleHeight)];
+        UIView *topTitleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, dialogContainer.bounds.size.width, kCustomIOSAlertViewTopTitleHeight)];
         topTitleView.backgroundColor = (_titleBarStyle == YBAlertTitleBarStyleGray) ? [UIColor whiteColor] : [YBAlertViewConfig sharedConfig].themeColor;
         
-        UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(35, 0, topTitleView.bounds.size.width - 70, TitleHeight)];
+        UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(35, 0, topTitleView.bounds.size.width - 70, kCustomIOSAlertViewTopTitleHeight)];
         titleLabel.textColor = (self.titleBarStyle == YBAlertTitleBarStyleGray) ? [UIColor colorWithRed:0.1 green:0.1 blue:0.1 alpha:1] : [YBAlertViewConfig sharedConfig].titleTextColor;
         titleLabel.font = _titleTextFont;
         titleLabel.textAlignment = NSTextAlignmentCenter;
@@ -180,7 +179,7 @@ CGFloat TitleHeight = kCustomIOSAlertViewTopTitleHeight;
         bodyHeight = kCustomIOSAlertViewBodyMinHeight;
     }
     CGRect contentContainerRect = CGRectMake(self.bodyMarginHorizontal,
-                                             TitleHeight + self.bodyMarginVertical,
+                                             kCustomIOSAlertViewTopTitleHeight + self.bodyMarginVertical,
                                              dialogContainer.bounds.size.width - self.bodyMarginHorizontal * 2,
                                              bodyHeight - self.bodyMarginVertical * 2);
     UIView *contentContainer = [[UIView alloc] initWithFrame:contentContainerRect];
@@ -262,12 +261,15 @@ CGFloat TitleHeight = kCustomIOSAlertViewTopTitleHeight;
 // Helper function: count and return the dialog's size
 - (CGSize)countAlertSize
 {
-    TitleHeight = (self.title && self.title.length > 0) ? 0 : kCustomIOSAlertViewTopTitleHeight;
+    CGFloat titleHeight = 0;
+    if (self.title && self.title.length > 0) {
+        titleHeight = kCustomIOSAlertViewTopTitleHeight;
+    }
     CGFloat bodyHeight = _contentView.frame.size.height + self.bodyMarginVertical * 2;
     if (bodyHeight < kCustomIOSAlertViewBodyMinHeight) {
         bodyHeight = kCustomIOSAlertViewBodyMinHeight;
     }
-    CGFloat alertViewHeight = TitleHeight + bodyHeight + ButtonHeight;
+    CGFloat alertViewHeight = titleHeight + bodyHeight + ButtonHeight;
 
     return CGSizeMake(AlertBodyWidth, alertViewHeight);
 }

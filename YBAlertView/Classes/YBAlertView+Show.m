@@ -90,9 +90,6 @@
     label.textAlignment = messageAlignment;
     label.text = message;
     CGSize labelSize = [self sizeWithString:message font:label.font size:CGSizeMake(labelWidth, CGFLOAT_MAX)];
-    if (labelSize.height < k_MinMessageLabelHeight) {
-        labelSize.height = k_MinMessageLabelHeight;
-    }
     label.frame = CGRectMake(0, 0, labelWidth, labelSize.height);
     alertView.contentView = label;
     [alertView show];

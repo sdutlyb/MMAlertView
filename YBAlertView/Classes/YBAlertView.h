@@ -25,13 +25,11 @@ typedef NS_ENUM(NSInteger, YBAlertPreferredActionButtonPosition)
     YBAlertPreferredActionButtonPositionAll
 };
 
-const static CGFloat kCustomIOSAlertViewTopTitleHeight = 44;
-const static CGFloat kCustomIOSAlertViewDefaultButtonHeight = 44;
-const static CGFloat kCustomIOSAlertViewCornerRadius = 6;
-const static CGFloat kCustomIOSAlertViewBodyMinHeight = 44;
-const static CGFloat kCustomIOSAlertViewBodyDefaultWidthRatio = 0.85;
-
-
+#define kCustomIOSAlertViewTopTitleHeight 44
+#define kCustomIOSAlertViewDefaultButtonHeight 44
+#define kCustomIOSAlertViewCornerRadius 6
+#define kCustomIOSAlertViewBodyMinHeight 44
+#define kCustomIOSAlertViewBodyDefaultWidthRatio 0.85
 
 @interface YBAlertView : UIView
 

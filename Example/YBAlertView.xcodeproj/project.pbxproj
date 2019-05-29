@@ -23,7 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		84392CFD48EF5B59CBF08B18 /* Pods_YBAlertView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CE33DD90DCEA1D7EE0B607 /* Pods_YBAlertView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AAC97536229D1D830038482D /* HKAlertDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC97534229D1D830038482D /* HKAlertDemoVC.xib */; };
+		AAC97536229D1D830038482D /* YBAlertDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC97534229D1D830038482D /* YBAlertDemoVC.xib */; };
 		AAC97537229D1D830038482D /* YBAlertDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC97535229D1D830038482D /* YBAlertDemoVC.m */; };
 		AFD5E38686561034B8103C5D /* Pods_YBAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB016BE0BFC151628C93D3DB /* Pods_YBAlertView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		2DBDA74338CFABCBD6252FF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4A16C28E0385CD2FE01EADFC /* Pods-YBAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAlertView_Example.release.xcconfig"; path = "Target Support Files/Pods-YBAlertView_Example/Pods-YBAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5D9EDB0E7D5D188CDD123BA0 /* YBAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YBAlertView.podspec; path = ../YBAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D9EDB0E7D5D188CDD123BA0 /* YBAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = YBAlertView.podspec; path = ../YBAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YBAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		94A46DE474D5282A0B47F4C8 /* Pods-YBAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAlertView_Example.debug.xcconfig"; path = "Target Support Files/Pods-YBAlertView_Example/Pods-YBAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A5DF6E4C179DBA78B65D592C /* Pods-YBAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAlertView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YBAlertView_Tests/Pods-YBAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAC97533229D1D830038482D /* YBAlertDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAlertDemoVC.h; sourceTree = "<group>"; };
-		AAC97534229D1D830038482D /* HKAlertDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKAlertDemoVC.xib; sourceTree = "<group>"; };
+		AAC97534229D1D830038482D /* YBAlertDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBAlertDemoVC.xib; sourceTree = "<group>"; };
 		AAC97535229D1D830038482D /* YBAlertDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAlertDemoVC.m; sourceTree = "<group>"; };
 		C41499283ABB7B6B700BF25B /* Pods-YBAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAlertView_Tests.release.xcconfig"; path = "Target Support Files/Pods-YBAlertView_Tests/Pods-YBAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC4CEF6ED5F2B42810642F0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 				6003F5A6195388D20070C39A /* YBViewController.m */,
 				AAC97533229D1D830038482D /* YBAlertDemoVC.h */,
 				AAC97535229D1D830038482D /* YBAlertDemoVC.m */,
-				AAC97534229D1D830038482D /* HKAlertDemoVC.xib */,
+				AAC97534229D1D830038482D /* YBAlertDemoVC.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -288,7 +288,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				AAC97536229D1D830038482D /* HKAlertDemoVC.xib in Resources */,
+				AAC97536229D1D830038482D /* YBAlertDemoVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
