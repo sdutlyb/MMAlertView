@@ -1,6 +1,6 @@
 # MMAlertView
 
-[![CI Status](https://img.shields.io/travis/liuyibin/MMAlertView.svg?style=flat)](https://travis-ci.org/liuyibin/MMAlertView)
+[![CI Status](https://img.shields.io/travis/386026448@qq.com/MMAlertView.svg?style=flat)](https://travis-ci.org/386026448@qq.com/MMAlertView)
 [![Version](https://img.shields.io/cocoapods/v/MMAlertView.svg?style=flat)](https://cocoapods.org/pods/MMAlertView)
 [![License](https://img.shields.io/cocoapods/l/MMAlertView.svg?style=flat)](https://cocoapods.org/pods/MMAlertView)
 [![Platform](https://img.shields.io/cocoapods/p/MMAlertView.svg?style=flat)](https://cocoapods.org/pods/MMAlertView)
@@ -22,7 +22,7 @@ pod 'MMAlertView'
 
 ## Author
 
-liuyibin, 386026448@qq.com
+386026448@qq.com, 1357494268@qq.com
 
 ## License
 

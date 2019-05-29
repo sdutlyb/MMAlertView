@@ -1,20 +1,20 @@
 //
-//  YBViewController.m
+//  MMViewController.m
 //  MMAlertView
 //
-//  Created by liuyibin on 05/28/2019.
-//  Copyright (c) 2019 liuyibin. All rights reserved.
+//  Created by 386026448@qq.com on 05/29/2019.
+//  Copyright (c) 2019 386026448@qq.com. All rights reserved.
 //
 
-#import "YBViewController.h"
+#import "MMViewController.h"
 
 #import "MMAlertDemoVC.h"
 
-@interface YBViewController ()
+@interface MMViewController ()
 
 @end
 
-@implementation YBViewController
+@implementation MMViewController
 
 - (void)viewDidLoad
 {
@@ -28,7 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)demePageButtonTouched:(id)sender {
+- (IBAction)demoButtonTouched:(id)sender {
     MMAlertDemoVC *vc = [[MMAlertDemoVC alloc] initWithNibName:@"MMAlertDemoVC" bundle:nil];
     [self.navigationController pushViewController:vc animated:YES];
 }

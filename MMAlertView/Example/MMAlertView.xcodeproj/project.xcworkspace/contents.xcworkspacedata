@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YBAlertView.xcodeproj">
+      location = "self:MMAlertView.xcodeproj">
    </FileRef>
 </Workspace>

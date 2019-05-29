@@ -2,8 +2,8 @@
 //  MMAlertViewTests.m
 //  MMAlertViewTests
 //
-//  Created by liuyibin on 05/28/2019.
-//  Copyright (c) 2019 liuyibin. All rights reserved.
+//  Created by 386026448@qq.com on 05/29/2019.
+//  Copyright (c) 2019 386026448@qq.com. All rights reserved.
 //
 
 @import XCTest;
