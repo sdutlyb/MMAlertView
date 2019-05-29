@@ -1,16 +1,16 @@
 PODS:
-  - YBAlertView (0.1.0)
+  - MMAlertView (0.1.0)
 
 DEPENDENCIES:
-  - YBAlertView (from `../`)
+  - MMAlertView (from `../`)
 
 EXTERNAL SOURCES:
-  YBAlertView:
+  MMAlertView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YBAlertView: 17f2c3369c0756221f50aee44bdfa8749ecde5c1
+  MMAlertView: 8fb30c7f8cfe0bc8b6fb4e1352ba8e6ded2dcf32
 
-PODFILE CHECKSUM: f2293dc32293056f0a86b5149fec64bae3a778de
+PODFILE CHECKSUM: 3b9eff4ed36e9977740a6e275a5ceee4546a9215
 
 COCOAPODS: 1.6.1

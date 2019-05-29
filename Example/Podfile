@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '9.0'
 
-target 'YBAlertView_Example' do
-  pod 'YBAlertView', :path => '../'
+target 'MMAlertView_Example' do
+  pod 'MMAlertView', :path => '../'
 
-  target 'YBAlertView_Tests' do
+  target 'MMAlertView_Tests' do
     inherit! :search_paths
 
     

@@ -1,6 +1,0 @@
-framework module YBAlertView {
-  umbrella header "YBAlertView-umbrella.h"
-
-  export *
-  module * { export * }
-}
