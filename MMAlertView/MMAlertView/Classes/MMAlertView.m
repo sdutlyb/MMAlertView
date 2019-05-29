@@ -60,9 +60,7 @@ CGFloat AlertBodyWidth = 0;
   
     self.layer.shouldRasterize = YES;
     self.layer.rasterizationScale = [[UIScreen mainScreen] scale];
-
     self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
-
     [self addSubview:_dialogView];
 
     // Can be attached to a view or to the top most window
@@ -102,8 +100,7 @@ CGFloat AlertBodyWidth = 0;
 
 }
 
-- (void)alertButtonTouchUpInside:(id)sender
-{
+- (void)alertButtonTouchUpInside:(id)sender {
     if (_onButtonTouchUpInside != NULL) {
         _onButtonTouchUpInside(self, (int)[sender tag]);
     }
@@ -113,8 +110,7 @@ CGFloat AlertBodyWidth = 0;
     [self close];
 }
 
-- (void)setSubView: (UIView *)subView
-{
+- (void)setSubView:(UIView *)subView {
     _contentView = subView;
 }
 
@@ -178,7 +174,7 @@ CGFloat AlertBodyWidth = 0;
                                              dialogContainer.bounds.size.width - self.bodyMarginHorizontal * 2,
                                              bodyHeight - self.bodyMarginVertical * 2);
     UIView *contentContainer = [[UIView alloc] initWithFrame:contentContainerRect];
-    contentContainer.backgroundColor = [UIColor redColor];
+    contentContainer.backgroundColor = [UIColor whiteColor];
     CGRect contentRect = _contentView.frame;
     contentRect.origin.y = (contentContainer.bounds.size.height - _contentView.bounds.size.height) / 2;
     _contentView.frame = contentRect;

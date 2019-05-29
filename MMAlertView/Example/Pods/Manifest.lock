@@ -1,5 +1,5 @@
 PODS:
-  - MMAlertView (0.1.0)
+  - MMAlertView (0.1.2)
 
 DEPENDENCIES:
   - MMAlertView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MMAlertView: 8fb30c7f8cfe0bc8b6fb4e1352ba8e6ded2dcf32
+  MMAlertView: 1dea1f4dc8c59917550abbfeacc881970819a0b3
 
 PODFILE CHECKSUM: 3b9eff4ed36e9977740a6e275a5ceee4546a9215
 
